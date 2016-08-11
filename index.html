@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>07-Firebase</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'> -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- <link href="assets/images" rel="stylesheet"> -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Getrack</h1><span aria-hidden="true" class="glyphicon glyphicon-road"></span>
+            <p>Let us take you there</p><!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span aria-hidden="true" class="glyphicon glyphicon-hourglass"></span> Current Train Schedule
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <th>Train Name</th>
+                        <th>Destination</th>
+                        <th>Frequency (min)</th>
+                        <th>Next Arrival</th>
+                        <th>Minutes Away</th>
+                    </tr>
+                    <tr>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td class="blink">Delayed</td>
+                    </tr>
+                    <tr>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td class="blink">Delayed</td>
+                    </tr>
+                    <tr>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td class="blink">Delayed</td>
+                    </tr>
+                    <tr>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td class="blink">Delayed</td>
+                    </tr>
+                    <tr>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td>Delayed</td>
+                        <td class="blink">Delayed</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span aria-hidden="true" class="glyphicon glyphicon-search"></span> Search Parameters
+            </div>
+            <div class="panel-body">
+                <p>Train Name</p><input class="form-control" id="toBeDetermined1" type="text">
+                <p>Destination</p><input class="form-control" id="toBeDetermined2" type="text">
+                <p>First Train Time (HH:mm - military time)</p><input class="form-control" id="toBeDetermined3" type="text">
+                <p>Frequency (min)</p><input class="form-control" id="toBeDetermined4" type="text"> <button class="btn btn-default" id="search" type=
+                "button"><span aria-hidden="true" class="glyphicon glyphicon-send"></span> Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script src="assets/javascript/app.js">
+    </script>
+</body>
+</html>

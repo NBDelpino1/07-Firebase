@@ -1,0 +1,66 @@
+.jumbotron{
+	text-align: center;  
+	color: white;  /*jumbo color*/
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-image: url(blue.jpg); /*1220*330*300*/
+    background-repeat: no-repeat;
+	/*font-family: 'Pontano Sans', sans-serif;*/
+}
+.jumbotron p{
+	color: white;  
+}
+.jumbotron h1{
+	font-size: 120px;
+}
+.glyphicon-road{
+	font-size: 25px;
+}
+.panel-body{
+	background-color: #fbfafa;
+
+}
+.panel-body p{ 
+	margin: 5px;
+}
+.panel-default>.panel-heading{ /*search parameter header*/
+	background-color: #193b79;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+/*.form-control{
+	background-color: #d5e5e6;*/ /*input box*/
+/*}*/
+.btn-default{ /*submit button*/
+	margin-top: 15px;
+	background-color: #8bc34a;
+	color: white;
+}
+.panel-default{ /*search parameter border*/
+	border-color: #193b79; 
+}
+th ,td{
+	color: #193b79;
+	text-align: center;
+}
+p{
+	color: #193b79;
+
+}
+th{
+	font-size: 18px;
+}
+.container-fluid{
+	border-color: blue;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: #ece7e7;
+}
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.blink{
+    animation: fadeIn .5s infinite alternate;
+}
