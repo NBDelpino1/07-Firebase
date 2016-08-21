@@ -1,0 +1,2 @@
+
+$('.jumbotron').fadeIn("slow","swing");
