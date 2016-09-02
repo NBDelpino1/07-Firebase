@@ -1,20 +1,13 @@
 .jumbotron {
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
-    margin-top: 20px;
     background-image: url(blue.jpg);
-/*1220*330*300*/
     background-repeat: no-repeat;
+    margin-bottom: 5px;
 }
 
 .jumbotron p {
     color: #fff;
-}
-
-.jumbotron h1 {
-    font-size: 120px;
-    font-weight: 700;
 }
 
 .glyphicon-road {
@@ -28,6 +21,7 @@
 
 .panel-body p {
     margin: 5px;
+
 }
 
 .panel-default>.panel-heading {
@@ -38,10 +32,10 @@
     font-size: 18px;
 }
 
-/*.form-control{
-  background-color: #d5e5e6;*/
-/*input box*/
-/*}*/
+.panel{
+  margin-bottom: 5px;
+}
+
 .btn-default {
 /*submit button*/
     margin-top: 15px;
@@ -53,6 +47,7 @@
 /*search parameter border*/
     border-color: #193b79;
 }
+
 
 th,td {
     color: #193b79;
@@ -67,12 +62,7 @@ th {
     font-size: 18px;
 }
 
-.container-fluid {
-    border-color: blue;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #1f4d99;
-}
+
 
 @keyframes fadeIn {
     from {
@@ -83,6 +73,7 @@ th {
 .blink {
     animation: fadeIn .5s infinite alternate;
 }
+
 
 /*experimentations*/
 /*
@@ -105,7 +96,7 @@ th {
     transform: translate(-75px, -10px);
   }
 }*/
-/*.jumbotron h1 {
+.jumbotron p {
 
   margin: 0 auto;
   animation-name: stretch;
@@ -127,4 +118,5 @@ th {
     transform: scale(1);
     
   }
-}*/
+}
+
