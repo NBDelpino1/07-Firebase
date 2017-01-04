@@ -31,8 +31,8 @@
   });
 
 //this function pulls the object that was just pushed to the database down so we can maniulate the time using moment, perfrom the calculations and print to the page
-database.ref().on("child_added", function(childSnapshot, prevChildKey){
-console.log(childSnapshot.val());
+// database.ref().on("child_added", function(childSnapshot, prevChildKey){
+// console.log(childSnapshot.val());
 
 //Note to Dwight: I couldnt finish, not enough time, here is some pseduo code for you reading pleasure tho lol.
 //You are probaly going to say oh yeah...well here is an F for YOUR reading pleasure Nick.
@@ -46,7 +46,7 @@ console.log(childSnapshot.val());
 //Then (using jQuery) 1.grab the values in the newly created variables 2.dynamically create HTML table/rows and then 3.append those values to the table/rows that were just created 
 //The values will now be displayed in the HTML for the user to see
 
-}
+// };
 
 
 
