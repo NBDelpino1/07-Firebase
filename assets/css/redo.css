@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.banner-img {
+    width:100%;
+    position: absolute;
+}
+
+
+
+
+form {
+    width:30%;
+    position: absolute;
+    top:30%;
+    left:50px;
+    padding:10px;
+    background-color: rgba(8,8,8,.71);
+}
+
+.form-text {
+    font-size:30px;
+    text-align: center;
+}
+
+/*form icon color*/
+.input-field .prefix {
+    color: #000000;
+}
+
+
