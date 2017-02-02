@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
     <link href="assets/css/redo.css" rel="stylesheet">
 </head>
 <body>
@@ -35,65 +35,65 @@
     <img src="assets/images/banner-img.png" class="banner-img">
 </div>
 
-
-
-    <form class="col s12 m3">
-        <div class="row">
+<form class="col s12 m3">
+    <div class="row">
+        <div class="form-text-wrapper">
             <h3 class="form-text">Book Tickets</h3>
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input id="firstName" type="text" class="validate">
-                <label for="firstName">First Name</label>
-            </div>
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input id="lastName" type="text" class="validate">
-                <label for="lastName">Last Name</label>
-            </div>
         </div>
+        <div class="input-field col s6">
+            <i class="fa fa-user prefix" aria-hidden="true"></i>
+            <input id="firstName" type="text" class="validate">
+            <label for="firstName">First Name</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="fa fa-user prefix" aria-hidden="true"></i>
+            <input id="lastName" type="text" class="validate">
+            <label for="lastName">Last Name</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="fa fa-train prefix" aria-hidden="true"></i>
+            <select>
+                <option value="" disabled selected>Destination</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <div class="input-field col s6">
+            <i class="fa fa-users prefix" aria-hidden="true"></i>
+            <select multiple>
+                <option value="" disabled selected>Number Passengers</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="fa fa-clock-o prefix" aria-hidden="true"></i>
+            <select>
+                <option value="" disabled selected>Time</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <div class="input-field col s6">
+            <i class="fa fa-calendar prefix" aria-hidden="true"></i>
+            <input type="date" class="datepicker" placeholder="Date">
+        </div>
+    </div>
+    <div class="row">
         <div class="row">
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <select>
-                    <option value="" disabled selected>Destination</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                </select>
-            </div>
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <select multiple>
-                    <option value="" disabled selected>Number Passengers</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                </select>
+            <div class="input-field col s12">
+                <a class="waves-effect waves-light btn-large" id="bookButton">Confirm Booking</a>
             </div>
         </div>
-        <div class="row">
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <select>
-                    <option value="" disabled selected>Time</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                </select>
-            </div>
-            <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input type="date" class="datepicker" placeholder="Date">
-            </div>
-        </div>
-        <div class="row">
-            <div class="row">
-                <div class="input-field col s12">
-                    <a class="waves-effect waves-light btn-large"><i class="material-icons left">input</i>Book</a>
-                </div>
-            </div>
-        </div>
-    </form>
+    </div>
+</form>
 
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
