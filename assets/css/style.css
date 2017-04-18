@@ -1,122 +1,112 @@
-.jumbotron {
-    text-align: center;
-    color: #fff;
-    background-image: url(blue.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 5px;
+html,
+body,
+.view {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
 }
 
-.jumbotron p {
-    color: #fff;
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
-.glyphicon-road {
-    font-size: 25px;
+.top-nav-collapse {
+    background-color: #1C2331;
 }
 
-.panel-body {
-    background-color: #fbfafa;
-    border-radius: 10px;
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
 }
 
-.panel-body p {
-    margin: 5px;
-
-}
-
-.panel-default>.panel-heading {
-/*search parameter header*/
-    background-color: #1c4b9b;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.panel{
-  margin-bottom: 5px;
-}
-
-.btn-default {
-/*submit button*/
-    margin-top: 15px;
-    background-color: #8bc34a;
-    color: #fff;
-}
-
-.panel-default {
-/*search parameter border*/
-    border-color: #193b79;
-}
-
-
-th,td {
-    color: #193b79;
-    text-align: center;
-}
-
-p {
-    color: #193b79;
-}
-
-th {
-    font-size: 18px;
-}
-
-
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
     }
 }
+/* Carousel*/
 
-.blink {
-    animation: fadeIn .5s infinite alternate;
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+.carousel-caption {
+    height: 100%;
+    padding-top: 7rem;
 }
 
 
-/*experimentations*/
-/*
-.jumbotron h1 {
-  animation: 
-    pulse 3s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
+/*.btn-main {*/
+    /*text-transform: none;*/
+    /*!*background-color: #4386fc;*!*/
+    /*background-color: #ff5a5f !important;*/
+    /*width:220px;*/
+/*}*/
+
+/*.btn-main:hover {*/
+    /*background-color:#ce494d !important;*/
+/*}*/
+
+/*.btn-main:focus {*/
+    /*background-color: #ff5a5f !important;*/
+/*}*/
+
+
+
+.btn-main {
+    text-transform: none;
+    border-radius:0;
+    background-color: #4386fc !important;
+    width:220px;
 }
 
-@keyframes nudge {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  
-  50% {
-    transform: translate(75px,10px);
-  }
-  
-  80% {
-    transform: translate(-75px, -10px);
-  }
-}*/
-.jumbotron p {
-
-  margin: 0 auto;
-  animation-name: stretch;
-  animation-duration: 3s; 
-  animation-timing-function: ease-out; 
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running;
+.btn-main:hover {
+    background-color:#2857a9 !important;
 }
 
-@keyframes stretch {
-  0% {
-    transform: scale(.8);
-
-  }
-  100% {
-    transform: scale(1);
-    
-  }
+.btn-main:focus {
+    background-color: #4386fc !important;
 }
 
+
+
+
+.btn-save-an-article {
+    text-transform: none;
+    background-color: #4386fc;
+    width:220px;
+}
+
+
+.logo-header {
+    font-style: italic;
+    font-weight:700;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
+
+.tester {
+    height:600px;
+}
