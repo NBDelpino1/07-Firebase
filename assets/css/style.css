@@ -73,16 +73,16 @@ footer.page-footer {
 .btn-main {
     text-transform: none;
     border-radius:0;
-    background-color: #4386fc !important;
+    background-color: #ff9800 !important;
     width:220px;
 }
 
 .btn-main:hover {
-    background-color:#2857a9 !important;
+    background-color:#e28c0d !important;
 }
 
 .btn-main:focus {
-    background-color: #4386fc !important;
+    background-color: #ff9800 !important;
 }
 
 
